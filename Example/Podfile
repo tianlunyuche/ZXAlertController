@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZXAlertController_Example' do
+  pod 'ZXAlertController', :path => '../'
+
+  target 'ZXAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
